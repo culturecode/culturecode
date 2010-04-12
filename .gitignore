@@ -1,0 +1,6 @@
+log/*
+nbproject
+config/database.yml
+.project
+.DS_Store
+
