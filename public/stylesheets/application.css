@@ -13,10 +13,6 @@
   font-family: "Charcoal CY";
   src: local("Charcoal CY"), url("/fonts/CharcoalCY.ttf");
 }
-@font-face {
-  font-family: "Hiragino Kaku Gothic ProN";
-  src: local("Hiragino Kaku Gothic ProN"), url("/fonts/HiraginoKakuGothicProNw3.otf");
-}
 html { background-color: #c7caca; }
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,7 +57,7 @@ h4 { font-size: 11px; }
   width: 500px;
 }
 #culture_code_banner h2 {
-  font-family: "Hiragino Kaku Gothic ProN";
+  font-family: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma;
   position: relative;
   left: 44px;
   font-size: 45pt;
@@ -80,15 +76,14 @@ h4 { font-size: 11px; }
 }
 #page_copy h1 { font-size: 27.5pt; }
 #page_nav_container {
-  top: 0;
+  top: 544px;
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
-  position: fixed;
+  position: absolute;
 }
 #page_nav {
   position: relative;
-  top: 544px;
   left: 660px;
   padding-left: 50px;
   width: 300px;
@@ -97,10 +92,14 @@ h4 { font-size: 11px; }
   text-transform: uppercase;
   border-left: 4px solid #aaadad;
 }
+#footer_shadow_container {
+  overflow: hidden;
+  width: 100%;
+}
 #footer_container {
   background-color: #191716;
   margin-top: 200px;
-  height: 200px;
+  height: 400px;
   -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);

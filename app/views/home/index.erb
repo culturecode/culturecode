@@ -25,6 +25,6 @@
   <ul id="page_nav">
     <li><%= link_to 'What We Do', root_path(:anchor => 'what_we_do') %></li>
     <li><%= link_to 'Past Work', root_path(:anchor => 'past_work') %></li>
-    <li><%= link_to 'Contact Us', root_path(:anchor => 'contact_us') %></li>
+    <li><%= link_to 'Contact Us', root_path(:anchor => 'contact_us'), :onclick => '$("footer_container").addClassName("focus")' %></li>
   </ul>
 </div>

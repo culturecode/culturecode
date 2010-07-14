@@ -7,10 +7,6 @@
 	font-family: "Charcoal CY";
 	src: local("Charcoal CY"), url("/fonts/CharcoalCY.ttf");
 }
-@font-face {
-	font-family: "Hiragino Kaku Gothic ProN";
-	src: local("Hiragino Kaku Gothic ProN"), url("/fonts/HiraginoKakuGothicProNw3.otf");
-}
 
 html{
 	background-color: #c7caca;
@@ -63,7 +59,7 @@ h4{
 		width: 500px;
 	}
 	h2{
-		font-family: "Hiragino Kaku Gothic ProN";		
+		font-family: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma;
 		position: relative;
 		left: 0px - @culture-code-banner-left-offset;
 		font-size: 45pt;
@@ -93,15 +89,14 @@ h4{
 @copy-to-nav-distance: 100px;
 @nav-padding-left: 50px;
 #page_nav_container{
-	top: 0;
+	top: 544px;
 	margin-left: auto;
 	margin-right: auto;
 	width: @page-width;
-	position: fixed;
+	position: absolute;
 }
 #page_nav{
 	position: relative;
-	top: 544px;
 	left: @page-copy-width + @copy-to-nav-distance - @nav-padding-left;
 	padding-left: @nav-padding-left;
 	width: 300px;
@@ -110,10 +105,15 @@ h4{
 	text-transform: uppercase;
 	border-left: 4px solid #aaadad;
 }
+// Firefox overflows box shadow and causes scrollbars, this is to prevent it
+#footer_shadow_container{
+	overflow: hidden;
+	width: 100%;
+}
 #footer_container{
 	background-color: #191716;
 	margin-top: 200px;
-	height: 200px;	
+	height: 400px;	
 	.box-shadow(0 -2px 3px rgba(0,0,0,0.3));
 }
 #footer{
