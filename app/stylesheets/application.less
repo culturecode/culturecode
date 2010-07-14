@@ -1,0 +1,138 @@
+@import '_helpers';
+
+@text-color: #383535;
+@page-width: 1000px;
+
+@font-face {
+	font-family: "Charcoal CY";
+	src: local("Charcoal CY"), url("/fonts/CharcoalCY.ttf");
+}
+@font-face {
+	font-family: "Hiragino Kaku Gothic ProN";
+	src: local("Hiragino Kaku Gothic ProN"), url("/fonts/HiraginoKakuGothicProNw3.otf");
+}
+
+html{
+	background-color: #c7caca;
+}
+body{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: @text-color;
+}
+a, a:visited{
+	text-decoration:none;
+	color: @text-color;
+	.transition(.3s color);
+}
+a:hover{
+	color: #375ca0;
+}
+
+h1{
+	font-size: 17px;
+}
+h2{
+	font-size: 15px;	
+}
+h3{
+	font-size: 13px;
+}
+h4{
+	font-size: 11px;
+}
+
+#page_margins{
+	width: @page-width;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+}
+
+@culture-code-banner-left-offset: -44px;
+#culture_code_banner{
+	position: relative;
+	top: 55px;
+	left: @culture-code-banner-left-offset;
+	
+	h1{
+		font-family: "Charcoal CY";
+		font-size: 180pt;
+		color: #aaadad;
+		line-height: 141pt;
+		text-transform: uppercase;
+		width: 500px;
+	}
+	h2{
+		font-family: "Hiragino Kaku Gothic ProN";		
+		position: relative;
+		left: 0px - @culture-code-banner-left-offset;
+		font-size: 45pt;
+		color: @text-color;		
+		width: 500px;
+	}
+}
+
+@page-copy-width: 610px;
+@page-copy-top-offset: 80px;
+#page_copy{
+	position: relative;
+	top: @page-copy-top-offset;
+	font-size: 15pt;
+	width: @page-copy-width;
+	
+	p{
+		margin: 0.25em 0 1em;
+		line-height: 1.25em;
+	}
+	
+	h1{
+		font-size: 27.5pt;
+	}
+}
+
+@copy-to-nav-distance: 100px;
+@nav-padding-left: 50px;
+#page_nav_container{
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: @page-width;
+	position: fixed;
+}
+#page_nav{
+	position: relative;
+	top: 544px;
+	left: @page-copy-width + @copy-to-nav-distance - @nav-padding-left;
+	padding-left: @nav-padding-left;
+	width: 300px;
+	font-family: "Hiragino Kaku Gothic ProN";	
+	font-size: 25pt;
+	text-transform: uppercase;
+	border-left: 4px solid #aaadad;
+}
+#footer_container{
+	background-color: #191716;
+	margin-top: 200px;
+	height: 200px;	
+	.box-shadow(0 -2px 3px rgba(0,0,0,0.3));
+}
+#footer{
+	padding: 30px;
+	width: @page-width;
+	margin-left: auto;
+	margin-right: auto;
+	color: #F7F7F7;
+	
+	.location{
+		display: inline;
+		float: left;
+		margin-right: 20px;
+		width: 160px;
+		font-size: 12px;
+		line-height: 1.5em;
+		
+		h4 {
+			font-family: "Charcoal CY";			
+		}
+	}
+}
