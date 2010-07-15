@@ -33,6 +33,11 @@ a:visited {
   transition: 0.3s color;
 }
 a:hover { color: #375ca0; }
+a[name] {
+  position: relative;
+  top: -20px;
+  display: block;
+}
 #page_margins {
   width: 1000px;
   margin-left: auto;
@@ -118,6 +123,7 @@ a:hover { color: #375ca0; }
   font-size: 27.5pt;
   line-height: 27.5pt;
   color: #191716;
+  text-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
 }
 #footer .location {
   display: inline;

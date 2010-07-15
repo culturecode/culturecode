@@ -25,6 +25,12 @@ a, a:visited{
 a:hover{
 	color: @link-hover-color;
 }
+/* Page Anchors */
+a[name]{
+    position:relative;
+    top: -20px; /* Move anchor up 20 px to give a bit of room */
+    display: block; /* For Chrome to scroll properly */
+}
 
 #page_margins{
 	width: @page-width;
@@ -128,6 +134,7 @@ a:hover{
             font-size: @page-copy-header-size;
             line-height: @page-copy-header-size;
             color: #191716;
+            text-shadow: 0 -2px 3px rgba(0,0,0,0.3);
         }
 	.location{
 		display: inline;
