@@ -2448,3 +2448,1716 @@ Processing HomeController#index (for 127.0.0.1 at 2010-07-14 08:45:24) [GET]
 Rendering template within layouts/application
 Rendering home/index
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 10:58:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1300ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:13:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1414ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:13:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/rrn/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:13:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:14:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 30ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:14:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/rrn/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:14:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:14:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:14:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/rrn/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:14:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:15:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 34ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:15:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/rrn/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:15:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:16:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:16:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/rrn/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:16:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:18:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:18:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:21:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:21:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:22:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 177ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:22:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:24:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 114ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:24:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:25:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 114ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:25:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:25:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 179ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:25:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:25:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 190ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:25:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:25:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 189ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:25:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:27:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 206ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:27:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:27:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 190ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:27:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 116ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:27:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:28:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 113ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:28:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 17:28:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 179ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 17:28:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 18:06:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 18:06:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 19:58:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 19:58:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 19:59:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 19:59:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:00:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:00:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:01:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:01:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:02:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 65ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:02:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:03:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:03:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:05:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 183ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:05:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:05:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:05:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:05:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:05:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:06:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 170ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:06:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:07:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 325ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:07:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:07:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:07:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:11:06) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 187ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:11:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:11:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 181ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:11:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:12:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:12:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:14:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 206ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:14:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:15:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:15:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:16:50) [GET]
+
+Less::SyntaxError (on line 116: expected one of @import * - @ :: : . # [ @media @font-face /* // } got ; after:
+
+#footer_container{
+  background-color: #191716;
+  margin-top: 200px;
+  height: 400px;  
+  .box-shadow(0 -2px 3px rgba(0,0,0,0.3));
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00ABEB), color-stop(1, white)) -moz-linear-gradient(linear, 0% 0%, 0% 100%, from(#00ABEB), color-stop(1, white));
+
+From /Users/nicholas/culturecode/website/app/stylesheets/application.less):
+  less (1.2.21) lib/less/engine.rb:37:in `parse'
+  less (1.2.21) lib/less/engine.rb:45:in `to_css'
+  vendor/plugins/more/rails/./lib/less/controller_extension.rb:5:in `generate_css_from_less'
+
+Rendered rescues/_trace (30.2ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:16:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 186ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:16:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:17:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 202ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:17:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:17:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:17:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:17:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:17:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:18:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 198ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:18:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:19:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:19:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:19:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 178ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:19:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:19:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 181ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:19:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:19:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 182ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:19:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:19:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 188ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:19:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:19:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 201ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:19:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:19:54) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 113ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:19:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:20:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 112ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:20:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:21:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 111ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:21:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:22:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 180ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:22:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:23:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 292ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:24:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 182ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:24:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 188ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:24:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 209ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:24:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 111ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:24:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 118ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:24:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 182ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:24:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 183ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:24:54) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 186ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:24:54) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:25:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 185ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:25:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:25:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:25:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:25:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 207ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:25:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:25:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 192ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:25:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:26:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 114ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:26:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:26:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 111ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:26:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:26:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 95ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:26:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:26:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 112ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:26:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:27:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 119ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:27:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:28:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 184ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:28:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:28:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 206ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:28:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:29:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 194ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:29:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:29:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 192ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:29:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:29:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 192ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:29:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:29:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 188ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:29:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:29:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 117ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:30:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 114ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:30:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:31:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 248ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:31:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:31:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 185ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:31:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:31:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 185ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:31:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:31:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 232ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:31:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:31:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 198ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:31:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:31:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:31:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:32:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:32:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:33:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 189ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:33:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:36:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 32ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:36:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:36:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 108ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:36:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:36:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 32ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:36:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:36:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 32ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:36:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:37:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 98ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:37:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:37:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 35ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-14 20:37:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/previous_work/loa_maize/poster_thumb.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:38:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:39:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 179ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:39:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:39:38) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:39:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:39:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:41:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:41:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:42:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:43:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 175ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:43:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:44:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:44:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:44:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:45:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:47:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:47:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:47:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:48:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:48:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:49:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 90ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:49:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 35ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:49:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 208ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:49:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:50:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 37ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:52:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:53:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 190ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:53:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 186ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 20:57:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 241ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:00:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 188ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:07:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 35ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:09:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 33ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:10:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:10:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:11:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:11:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:12:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:12:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:14:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 201ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:14:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 193ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:14:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 193ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:16:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 204ms (View: 91, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:17:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:17:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:20:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:22:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 173ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:23:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:23:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 191ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:25:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:25:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:25:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:26:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 203ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:26:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:27:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 183ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:28:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 184ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:29:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 187ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:29:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 187ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:29:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 196ms (View: 86, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:30:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:32:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 117ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:33:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 119ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-14 21:34:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 186ms (View: 4, DB: 0) | 200 OK [http://localhost/]

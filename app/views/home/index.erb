@@ -2,6 +2,13 @@
   <h1>Culture Code</h1>
   <h2>makes solutions</h2>
 </div>
+<div id="page_nav_container">
+  <ul id="page_nav">
+    <li><%= link_to 'What We Do', root_path(:anchor => 'what_we_do') %></li>
+    <li><%= link_to 'Past Work', root_path(:anchor => 'past_work') %></li>
+    <li><%= link_to 'Contact Us', root_path(:anchor => 'contact_us'), :onclick => '$("footer_container").addClassName("focus")' %></li>
+  </ul>
+</div>
 <div id="page_copy">
   <a name="what_we_do"></a>
   <h1>We design software to help you work</h1>
@@ -9,22 +16,17 @@
     if you want it, we can build it for you.</p>
   <p>The team at Culture Code has years of experience designing web
     applications for the cultural and university sectors. We specialize
-    in... and the text keeps going down. The links to the right are fixed
-    and follow along as the user scrolls up and down.</p>
+    in building tools for cultural and scientific research.</p>
 
   <a name="past_work"></a>
   <h1>Our work speaks for itself</h1>
-  <p>Whether you’re one person, or an international group of museums,
-    if you want it, we can build it for you.</p>
-  <p>The team at Culture Code has years of experience designing web
-    applications for the cultural and university sectors. We specialize
-    in... and the text keeps going down. The links to the right are fixed
-    and follow along as the user scrolls up and down.</p>
-</div>
-<div id="page_nav_container">
-  <ul id="page_nav">
-    <li><%= link_to 'What We Do', root_path(:anchor => 'what_we_do') %></li>
-    <li><%= link_to 'Past Work', root_path(:anchor => 'past_work') %></li>
-    <li><%= link_to 'Contact Us', root_path(:anchor => 'contact_us'), :onclick => '$("footer_container").addClassName("focus")' %></li>
+  <ul class="gallery">
+    <li class="gallery_item"><%= image_tag 'previous_work/rrn/poster_thumb.png', :class => 'thumbnail' %></li>
+    <li class="gallery_item"><%= image_tag 'previous_work/rrn/poster_thumb.png', :class => 'thumbnail' %></li>
+    <li class="gallery_item"><%= image_tag 'previous_work/rrn/poster_thumb.png', :class => 'thumbnail' %></li>
+    <li class="gallery_item"><%= image_tag 'previous_work/rrn/poster_thumb.png', :class => 'thumbnail' %></li>
+    <li class="gallery_item"><%= image_tag 'previous_work/rrn/poster_thumb.png', :class => 'thumbnail' %></li>
+    <li class="gallery_item"><%= image_tag 'previous_work/rrn/poster_thumb.png', :class => 'thumbnail' %></li>
+    <div class="clear"></div>
   </ul>
 </div>

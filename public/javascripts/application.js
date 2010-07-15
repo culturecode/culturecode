@@ -10,8 +10,8 @@ var NavHelper = {
         Element.observe(navLink, 'click', function(event, targetElement){
             event.stop();
             Effect.ScrollTo(targetElement, {
-                offset:-300,
-                duration:0.5
+                offset: -20,
+                duration: 0.5
             });
         }.bindAsEventListener(this, target));
         
@@ -22,31 +22,37 @@ var NavHelper = {
         var floatStop = $('page_copy').cumulativeOffset().top + $('page_copy').getHeight();
         var navHeight = nav.getHeight();
         var padding = 10;
-        Event.observe(window, 'scroll', function(){
+
+        var floatIt = function(){
             var scrollTop = document.viewport.getScrollOffsets().top;
             if (this._tooLowToFloat(scrollTop, navHeight, floatStop, padding)) {
-                if (nav.getStyle('position') != 'absolute'){
+                if (nav._ccNavFloatPosition != 'tooLow'){
+                    nav._ccNavFloatPosition = 'tooLow';
                     nav.setStyle({
                         'position': 'absolute',
                         top: floatStop - navHeight + 'px'
                     });
                 }
             } else if (this._lowEnoughToFloat(scrollTop, floatStart, padding)){
-                if (nav.getStyle('position') != 'fixed'){
+                if (nav._ccNavFloatPosition != 'lowEnough'){
+                    nav._ccNavFloatPosition = 'lowEnough';
                     nav.setStyle({
                         'position': 'fixed',
                         'top': padding + 'px'
                     });
                 }
             } else if (this._tooHighToFloat(scrollTop, floatStart, padding)) {
-                if (nav.getStyle('position') == 'fixed'){
+                if (nav._ccNavFloatPosition != 'tooHigh'){
+                    nav._ccNavFloatPosition = 'tooHigh';
                     nav.setStyle({
                         'position': 'absolute',
                         top:null
                     });
                 }
             }
-        }.bind(this));
+        }.bind(this);
+        Event.observe(window, 'scroll', floatIt);
+        floatIt();
     },
     _tooHighToFloat: function(scrollTop, floatStart, padding){
         return scrollTop < floatStart - padding;

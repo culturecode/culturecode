@@ -2,6 +2,8 @@
 
 @text-color: #383535;
 @page-width: 1000px;
+@link-color: #5865A5;
+@link-hover-color: #375ca0;
 
 @font-face {
 	font-family: "Charcoal CY";
@@ -17,24 +19,11 @@ body{
 }
 a, a:visited{
 	text-decoration:none;
-	color: @text-color;
+	color: @link-color;
 	.transition(.3s color);
 }
 a:hover{
-	color: #375ca0;
-}
-
-h1{
-	font-size: 17px;
-}
-h2{
-	font-size: 15px;	
-}
-h3{
-	font-size: 13px;
-}
-h4{
-	font-size: 11px;
+	color: @link-hover-color;
 }
 
 #page_margins{
@@ -42,12 +31,13 @@ h4{
 	margin-left:auto;
 	margin-right:auto;
 	position: relative;
+        padding: 0 20px;
 }
 
 @culture-code-banner-left-offset: -44px;
 #culture_code_banner{
 	position: relative;
-	top: 55px;
+	padding-top: 55px;
 	left: @culture-code-banner-left-offset;
 	
 	h1{
@@ -57,6 +47,7 @@ h4{
 		line-height: 141pt;
 		text-transform: uppercase;
 		width: 500px;
+                margin: 0;
 	}
 	h2{
 		font-family: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma;
@@ -65,14 +56,13 @@ h4{
 		font-size: 45pt;
 		color: @text-color;		
 		width: 500px;
+                margin: 0 0 0.5em 0;
 	}
 }
 
 @page-copy-width: 610px;
-@page-copy-top-offset: 80px;
 #page_copy{
 	position: relative;
-	top: @page-copy-top-offset;
 	font-size: 15pt;
 	width: @page-copy-width;
 	
@@ -89,7 +79,6 @@ h4{
 @copy-to-nav-distance: 100px;
 @nav-padding-left: 50px;
 #page_nav_container{
-	top: 544px;
 	margin-left: auto;
 	margin-right: auto;
 	width: @page-width;
@@ -104,17 +93,26 @@ h4{
 	font-size: 25pt;
 	text-transform: uppercase;
 	border-left: 4px solid #aaadad;
+
+        a{
+            color: @text-color;
+        }
+        a:hover{
+            color: @link-hover-color;
+        }
 }
-// Firefox overflows box shadow and causes scrollbars, this is to prevent it
+/* Firefox overflows box shadow and causes scrollbars, this is to prevent it */
 #footer_shadow_container{
 	overflow: hidden;
 	width: 100%;
 }
 #footer_container{
 	background-color: #191716;
-	margin-top: 200px;
-	height: 400px;	
+	margin-top: 100px;
+	height: 500px;
 	.box-shadow(0 -2px 3px rgba(0,0,0,0.3));
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), color-stop(0.05, #191716));
+        background: -moz-linear-gradient(top center, #333333, #191716 5%);
 }
 #footer{
 	padding: 30px;
@@ -122,7 +120,7 @@ h4{
 	margin-left: auto;
 	margin-right: auto;
 	color: #F7F7F7;
-	
+
 	.location{
 		display: inline;
 		float: left;
@@ -135,4 +133,8 @@ h4{
 			font-family: "Charcoal CY";			
 		}
 	}
+}
+
+.clear{
+    clear: both;
 }

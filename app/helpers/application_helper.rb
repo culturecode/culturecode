@@ -15,7 +15,7 @@ module ApplicationHelper
   def stylesheets
     returning "" do |css|
       css << stylesheet_link_tag("http://yui.yahooapis.com/2.8.1/build/reset/reset-min.css")
-      css << stylesheet_link_tag('application')
+      css << stylesheet_link_tag('application', 'text', 'gallery')
     end
   end
 
