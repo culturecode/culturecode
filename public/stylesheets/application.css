@@ -102,8 +102,6 @@ a:hover { color: #375ca0; }
   -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), color-stop(0.05, #191716));
-  background: -moz-linear-gradient(top center, #333333, #191716 5%);
 }
 #footer {
   padding: 30px;
@@ -119,7 +117,7 @@ a:hover { color: #375ca0; }
   position: absolute;
   font-size: 27.5pt;
   line-height: 27.5pt;
-  color: #333333;
+  color: #191716;
 }
 #footer .location {
   display: inline;
