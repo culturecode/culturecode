@@ -4,6 +4,8 @@
 @page-width: 1000px;
 @link-color: #5865A5;
 @link-hover-color: #375ca0;
+@subheader-font: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma;
+
 
 @font-face {
 	font-family: "Charcoal CY";
@@ -56,7 +58,7 @@ a[name]{
                 margin: 0;
 	}
 	h2{
-		font-family: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma;
+		font-family: @subheader-font;
 		position: relative;
 		left: 0px - @culture-code-banner-left-offset;
 		font-size: 45pt;
@@ -96,7 +98,7 @@ a[name]{
 	left: @page-copy-width + @copy-to-nav-distance - @nav-padding-left;
 	padding-left: @nav-padding-left;
 	width: 300px;
-	font-family: "Hiragino Kaku Gothic ProN";	
+	font-family: @subheader-font;
 	font-size: 25pt;
 	text-transform: uppercase;
 	border-left: 4px solid #aaadad;

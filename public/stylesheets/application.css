@@ -89,7 +89,7 @@ a[name] {
   left: 660px;
   padding-left: 50px;
   width: 300px;
-  font-family: "Hiragino Kaku Gothic ProN";
+  font-family: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma;
   font-size: 25pt;
   text-transform: uppercase;
   border-left: 4px solid #aaadad;
