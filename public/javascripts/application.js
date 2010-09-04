@@ -1,6 +1,18 @@
 // Place your application-specific JavaScript functions and classes here
 // This file is automatically included by javascript_include_tag :defaults
 
+$(document).ready(function() {
+    /* Apply fancybox to multiple items */
+    $(".gallery_item a").fancybox({
+        'cyclic'        : true,
+        'titleShow'     : false,
+        'autoScale'     : false
+    });
+
+});
+
+/*
+
 var NavHelper = {
     // Smooth scrolls to the anchor
     scrollOnClick: function(navLink){
@@ -69,3 +81,4 @@ $$('#page_nav li a').each(function(navLink){
     NavHelper.scrollOnClick(navLink)
 })
 NavHelper.floatInView('page_nav_container');
+*/

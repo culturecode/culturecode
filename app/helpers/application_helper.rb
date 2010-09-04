@@ -3,19 +3,24 @@ module ApplicationHelper
 
   def javascripts_frameworks
     returning "" do |html|
-      html << javascript_include_tag('prototype')
-      html << javascript_include_tag('http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js?load=effects,dragdrop,controls,builder,slider')
+#      html << javascript_include_tag('prototype')
+#      html << javascript_include_tag('http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js?load=effects,dragdrop,controls,builder,slider')
+      html << javascript_include_tag('http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js')
+      html << javascript_include_tag('fancybox/jquery.mousewheel-3.0.2.pack.js')
+      html << javascript_include_tag('fancybox/jquery.fancybox-1.3.1.js')
     end
   end
 
   def javascripts
     javascript_include_tag('application')
+
   end
 
   def stylesheets
     returning "" do |css|
       css << stylesheet_link_tag("http://yui.yahooapis.com/2.8.1/build/reset/reset-min.css")
       css << stylesheet_link_tag('application', 'text', 'gallery')
+      css << stylesheet_link_tag('/javascripts/fancybox/jquery.fancybox-1.3.1.css')
     end
   end
 
