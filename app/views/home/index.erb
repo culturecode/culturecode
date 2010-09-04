@@ -6,27 +6,25 @@
   <ul id="page_nav">
     <li><%= link_to 'What We Do', root_path(:anchor => 'what_we_do') %></li>
     <li><%= link_to 'Past Work', root_path(:anchor => 'past_work') %></li>
-    <li><%= link_to 'Contact Us', root_path(:anchor => 'contact_us'), :onclick => '$("footer_container").addClassName("focus")' %></li>
+    <li><%= link_to 'Contact Us', root_path(:anchor => 'contact_us') %></li>
   </ul>
 </div>
 <div id="page_copy">
-  <a name="what_we_do"></a>
-  <h1>We design software to help you work</h1>
+  <h1><a name="what_we_do"></a>We design software to help you work</h1>
   <p>Whether you’re one person, or an international group of museums,
     if you want it, we can build it for you.</p>
   <p>The team at Culture Code has years of experience designing web
     applications for the cultural and university sectors. We specialize
     in building tools for cultural and scientific research.</p>
 
-  <a name="past_work"></a>
-  <h1>Our work speaks for itself</h1>
+  <h1><a name="past_work"></a>Our work speaks for itself</h1>
   <ul class="gallery">
     <li class="gallery_item"><%= link_to(image_tag('previous_work/rrn/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/rrn/poster.png', :rel => 'group1', :title => "The Reciprocal Research Network is an online database for anyone to research Northwest Coast First Nations items held around the world.") %></li>
     <li class="gallery_item"><%= link_to(image_tag('previous_work/rrn/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/rrn/poster2.png', :rel => 'group1', :title => "A simple, powerful point and click search interface takes the guesswork out of searching the database.", :style => 'display:none;') %></li>
     <li class="gallery_item"><%= link_to(image_tag('previous_work/rrn/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/rrn/poster3.png', :rel => 'group1', :title => "Visualizing your results on a map can provide new insights.", :style => 'display:none;') %></li>
-    <li class="gallery_item"><%= link_to(image_tag('previous_work/rrn/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/rrn/poster.png') %></li>
-    <li class="gallery_item"><%= link_to(image_tag('previous_work/rrn/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/rrn/poster.png') %></li>
-    <li class="gallery_item"><%= link_to(image_tag('previous_work/rrn/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/rrn/poster.png') %></li>
+    <li class="gallery_item"><%= link_to(image_tag('previous_work/loa/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/loa/poster.png', :rel => 'group2') %></li>
+    <li class="gallery_item"><%= link_to(image_tag('previous_work/loa/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/loa/poster2.png', :rel => 'group2', :style => 'display:none;') %></li>
+    <li class="gallery_item"><%= link_to(image_tag('previous_work/loa/poster_thumb.png', :class => 'thumbnail'), 'images/previous_work/loa/poster3.png', :rel => 'group2', :style => 'display:none;') %></li>
     <div class="clear"></div>
   </ul>
 </div>

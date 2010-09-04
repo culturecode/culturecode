@@ -9,61 +9,66 @@ $(document).ready(function() {
         'autoScale'     : false
     });
 
+    // Bind the nav links with smooth scrolling action
+    $('#page_nav li a').each(function(index, navLink){
+        var anchor = navLink.href.replace(/.*#/, '');
+        var targetSelector = 'a[name=' + anchor + ']';
+        $(navLink).click(function(event){
+            event.preventDefault();
+            Helpers.scrollToElement($(targetSelector)[0]);
+        });
+    });
+
+    Helpers.floatInView('#page_nav_container');
+
 });
 
-/*
-
-var NavHelper = {
-    // Smooth scrolls to the anchor
-    scrollOnClick: function(navLink){
-        var anchor = navLink.href.gsub(/.*#/, '');
-        var targetSelector = 'a[name=' + anchor + ']';
-        var target = $(document.body.down(targetSelector))
-        Element.observe(navLink, 'click', function(event, targetElement){
-            event.stop();
-            Effect.ScrollTo(targetElement, {
-                offset: -20,
-                duration: 0.5
-            });
-        }.bindAsEventListener(this, target));
-        
+var Helpers = {
+    scrollToElement: function(element){
+        $('html,body').animate({
+            scrollTop: $(element).offset().top
+        }, {
+            duration: 'slow',
+            easing: 'swing'
+        });
     },
-    floatInView: function(nav){
-        nav = $(nav);
-        var floatStart = nav.cumulativeOffset().top;
-        var floatStop = $('page_copy').cumulativeOffset().top + $('page_copy').getHeight();
-        var navHeight = nav.getHeight();
+    floatInView: function(elementIdSelector){
+        var element = $($(elementIdSelector)[0]);
+        var pageCopy = $($('#page_copy')[0]);
+        var floatStart = element.offset().top;
+        var floatStop = pageCopy.offset().top + pageCopy.height();
+        var navHeight = element.height();
         var padding = 10;
 
         var floatIt = function(){
-            var scrollTop = document.viewport.getScrollOffsets().top;
-            if (this._tooLowToFloat(scrollTop, navHeight, floatStop, padding)) {
-                if (nav._ccNavFloatPosition != 'tooLow'){
-                    nav._ccNavFloatPosition = 'tooLow';
-                    nav.setStyle({
+            var scrollTop = $(document).scrollTop();
+            if (Helpers._tooLowToFloat(scrollTop, navHeight, floatStop, padding)) {
+                if (element._ccNavFloatPosition != 'tooLow'){
+                    element._ccNavFloatPosition = 'tooLow';
+                    element.css({
                         'position': 'absolute',
                         top: floatStop - navHeight + 'px'
                     });
                 }
-            } else if (this._lowEnoughToFloat(scrollTop, floatStart, padding)){
-                if (nav._ccNavFloatPosition != 'lowEnough'){
-                    nav._ccNavFloatPosition = 'lowEnough';
-                    nav.setStyle({
+            } else if (Helpers._lowEnoughToFloat(scrollTop, floatStart, padding)){
+                if (element._ccNavFloatPosition != 'lowEnough'){
+                    element._ccNavFloatPosition = 'lowEnough';
+                    element.css({
                         'position': 'fixed',
                         'top': padding + 'px'
                     });
                 }
-            } else if (this._tooHighToFloat(scrollTop, floatStart, padding)) {
-                if (nav._ccNavFloatPosition != 'tooHigh'){
-                    nav._ccNavFloatPosition = 'tooHigh';
-                    nav.setStyle({
+            } else if (Helpers._tooHighToFloat(scrollTop, floatStart, padding)) {
+                if (element._ccNavFloatPosition != 'tooHigh'){
+                    element._ccNavFloatPosition = 'tooHigh';
+                    element.css({
                         'position': 'absolute',
                         top:null
                     });
                 }
             }
-        }.bind(this);
-        Event.observe(window, 'scroll', floatIt);
+        };
+        $(document).scroll(floatIt);
         floatIt();
     },
     _tooHighToFloat: function(scrollTop, floatStart, padding){
@@ -76,9 +81,3 @@ var NavHelper = {
         return scrollTop > floatStart - padding;
     }
 }
-// Bind the nav links with smooth scrolling action
-$$('#page_nav li a').each(function(navLink){
-    NavHelper.scrollOnClick(navLink)
-})
-NavHelper.floatInView('page_nav_container');
-*/
