@@ -1,11 +1,6 @@
 @import '_helpers';
 
-@text-color: #383535;
-@page-width: 1000px;
-@link-color: #5865A5;
-@link-hover-color: #375ca0;
 @subheader-font: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma;
-
 
 @font-face {
 	font-family: "Charcoal CY";
@@ -13,10 +8,10 @@
 }
 
 html{
-	background-color: #c7caca;
+	background-color: @background-color;
 }
 body{
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: @body-font;
 	color: @text-color;
 }
 a, a:visited{

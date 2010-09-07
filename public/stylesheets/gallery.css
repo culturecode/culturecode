@@ -22,3 +22,19 @@
   height: 110px;
   width: 110px;
 }
+#fancybox-title {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-size: 1em !important;
+  background: #e5e5e5;
+  border-top: 10px solid white;
+}
+#photo_number {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: black 0 0 5px;
+  right: 0px;
+  bottom: -35px;
+}
+#photo_number a:link { color: white; }

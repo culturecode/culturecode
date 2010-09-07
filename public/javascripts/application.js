@@ -1,8 +1,9 @@
 $(document).ready(function() {
     /* Apply fancybox to multiple items */
     $(".gallery_item a").fancybox({
-        'cyclic'        : true,
-        'titleShow'     : false,
+        'cyclic'            : true,
+        'titlePosition'     : 'inside',
+        'titleFormat'       : function(title, currentArray, currentIndex, currentOpts) { return "<span id='photo_number'><a href='#' onclick='$.fancybox.next(); return false;' title='Next Image'>" + (currentIndex + 1) + "/" + currentArray.length + "</a></span> " + title;},
         'autoScale'     : false
     });
 
