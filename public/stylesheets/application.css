@@ -103,26 +103,22 @@ a[name] {
 #footer_container {
   background-color: #191716;
   margin-top: 100px;
-  height: 800px;
+  height: 400px;
   -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
 }
 #footer {
-  padding: 30px;
-  width: 1000px;
+  color: #f7f7f7;
   margin-left: auto;
   margin-right: auto;
-  color: #f7f7f7;
+  padding-top: 1px;
   position: relative;
+  width: 1000px;
 }
 #footer #contact_header {
-  top: 6px;
-  margin: -1em 0 0;
-  position: absolute;
+  color: white;
   font-size: 27.5pt;
-  line-height: 27.5pt;
-  color: #191716;
   text-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
 }
 #footer .location {
