@@ -8,15 +8,13 @@ $(document).ready(function() {
     });
 
     // Bind the nav links with smooth scrolling action
-    $('#page_nav li a').each(function(index, navLink){
-        var anchor = navLink.href.replace(/.*#/, '');
+    $('#page_nav li a').live('click', function(event){
+        var anchor = this.href.replace(/.*#/, '');
         var targetSelector = 'a[name=' + anchor + ']';
-        $(navLink).click(function(event){
-            event.preventDefault();
-            Helpers.scrollToElement($(targetSelector)[0]);
-        });
+        event.preventDefault();
+        Helpers.scrollToElement(targetSelector);
     });
-
+    
     Helpers.floatInView('#page_nav_container');
 
 });
@@ -31,8 +29,8 @@ var Helpers = {
         });
     },
     floatInView: function(elementIdSelector){
-        var element = $($(elementIdSelector)[0]);
-        var pageCopy = $($('#page_copy')[0]);
+        var element = $(elementIdSelector);
+        var pageCopy = $('#page_copy');
         var floatStart = element.offset().top;
         var floatStop = pageCopy.offset().top + pageCopy.height();
         var navHeight = element.height();
