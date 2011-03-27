@@ -9,18 +9,19 @@
 
 
 */.thin-text { text-shadow: 0 0 1px rgba(0, 0, 0, 0.01); }
-.gallery .gallery_item { display: inline; }
+.gallery .gallery_item {
+  display: inline-block;
+  margin: 10px;
+}
 .thumbnail {
   padding: 4px;
   background: white;
-  margin: 10px;
   border: 1px solid #aaaaaa;
   border-bottom-color: #747474;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  height: 110px;
-  width: 110px;
+  vertical-align: middle;
 }
 #fancybox-title {
   font-family: Georgia, 'Times New Roman', Times, serif !important;

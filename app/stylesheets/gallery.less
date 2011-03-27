@@ -2,21 +2,20 @@
 
 .gallery{
     .gallery_item{
-        display: inline;
+        display: inline-block;
+        margin: 10px;
     }
 }
 
 @thumbnail-border-color: #AAAAAA;
 @thumbnail-shadow-border-color: @thumbnail-border-color - #363636;
 .thumbnail{
-    padding: 4px;
-    background: white;
-    margin: 10px;
-    border: 1px solid @thumbnail-border-color;
-    border-bottom-color: @thumbnail-shadow-border-color;
-    .rounded-corners(2px);
-    height: 110px;
-    width: 110px;
+        padding: 4px;
+        background: white;
+        border: 1px solid @thumbnail-border-color;
+        border-bottom-color: @thumbnail-shadow-border-color;
+        .rounded-corners(2px);
+        vertical-align: middle;
 }
 
 #fancybox-title{
