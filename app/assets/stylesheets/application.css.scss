@@ -23,10 +23,7 @@ $subheader-font: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma
 
 html{
     background-color: $background-color;
-}
-body{
-    font-family: $body-font;
-    color: $text-color;
+    background-image: asset_url('background.png', image);
 }
 a, a:visited{
     text-decoration:none;
@@ -60,11 +57,12 @@ $culture-code-banner-left-offset: -44px;
     h1{
         font-family: "Charcoal CY";
         font-size: 180pt;
-        color: #aaadad;
+        color: $title-color;
         line-height: 141pt;
         text-transform: uppercase;
         width: 500px;
         margin: 0;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 20px rgba(100, 40, 30, 0.1);
     }
     h2{
         font-family: $subheader-font;
@@ -110,7 +108,7 @@ $nav-padding-left: 50px;
     font-family: $subheader-font;
     font-size: 25pt;
     text-transform: uppercase;
-    border-left: 4px solid #aaadad;
+    border-left: 4px solid $title-color;
 
     a{
         color: $text-color;
@@ -126,9 +124,10 @@ $nav-padding-left: 50px;
 }
 #footer_container{
     background-color: #191716;
+    background-image: asset_url('footer_background.png', image);
+    border-top: 1px solid #888;
     margin-top: 80px;
-    height: 400px;
-    @include box-shadow(0 -2px 3px rgba(0,0,0,0.3));
+    @include box-shadow(0 -2px 20px rgba(0, 0, 0, 0.5));
 }
 #footer{
     color: #F7F7F7;
@@ -146,9 +145,9 @@ $nav-padding-left: 50px;
     .location{
         display: inline;
         float: left;
-        margin-right: 20px;
+        margin: 0 20px 40px 0;
         width: 160px;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.5em;
 
         h4 {
