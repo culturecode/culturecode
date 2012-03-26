@@ -1,0 +1,162 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+
+@import 'mixins';
+
+$subheader-font: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma;
+
+@font-face {
+    font-family: "Charcoal CY";
+    src: local("Charcoal CY"), url("/fonts/CharcoalCY.ttf");
+}
+
+html{
+    background-color: $background-color;
+}
+body{
+    font-family: $body-font;
+    color: $text-color;
+}
+a, a:visited{
+    text-decoration:none;
+    color: $link-color;
+    @include transition(.3s color);
+}
+a:hover{
+    color: $link-hover-color;
+}
+/* Page Anchors */
+a[name]{
+    position:relative;
+    top: -20px; /* Move anchor up 20 px to give a bit of room */
+    display: block; /* For Chrome to scroll properly */
+}
+
+#page_margins{
+    width: $page-width;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+$culture-code-banner-left-offset: -44px;
+#culture_code_banner{
+    position: relative;
+    padding-top: 55px;
+    left: $culture-code-banner-left-offset;
+
+    h1{
+        font-family: "Charcoal CY";
+        font-size: 180pt;
+        color: #aaadad;
+        line-height: 141pt;
+        text-transform: uppercase;
+        width: 500px;
+        margin: 0;
+    }
+    h2{
+        font-family: $subheader-font;
+        position: relative;
+        left: 0px - $culture-code-banner-left-offset;
+        font-size: 45pt;
+        color: $text-color;		
+        width: 500px;
+        margin: 0 0 0.5em 0;
+    }
+}
+
+$page-copy-width: 610px;
+$page-copy-header-size: 27.5pt;
+#page_copy{
+    position: relative;
+    font-size: 15pt;
+    width: $page-copy-width;
+
+    p{
+        margin: 0.25em 0 1em;
+        line-height: 1.25em;
+    }
+
+    h1{
+        font-size: $page-copy-header-size;
+    }
+}
+
+$copy-to-nav-distance: 100px;
+$nav-padding-left: 50px;
+#page_nav_container{
+    margin-left: auto;
+    margin-right: auto;
+    width: $page-width;
+    position: absolute;
+}
+#page_nav{
+    position: relative;
+    left: $page-copy-width + $copy-to-nav-distance - $nav-padding-left;
+    padding-left: $nav-padding-left;
+    width: 300px;
+    font-family: $subheader-font;
+    font-size: 25pt;
+    text-transform: uppercase;
+    border-left: 4px solid #aaadad;
+
+    a{
+        color: $text-color;
+    }
+    a:hover{
+        color: $link-hover-color;
+    }
+}
+/* Firefox overflows box shadow and causes scrollbars, this is to prevent it */
+#footer_shadow_container{
+    overflow: hidden;
+    width: 100%;
+}
+#footer_container{
+    background-color: #191716;
+    margin-top: 80px;
+    height: 400px;
+    @include box-shadow(0 -2px 3px rgba(0,0,0,0.3));
+}
+#footer{
+    color: #F7F7F7;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    position: relative;
+    width: $page-width;
+
+    #contact_header{
+        color: white;
+        font-size: $page-copy-header-size;
+        text-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
+    }
+    .location{
+        display: inline;
+        float: left;
+        margin-right: 20px;
+        width: 160px;
+        font-size: 12px;
+        line-height: 1.5em;
+
+        h4 {
+            font-family: "Charcoal CY";			
+        }
+    }
+}
+
+.clear{
+    clear: both;
+}

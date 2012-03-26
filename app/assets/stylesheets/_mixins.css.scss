@@ -1,0 +1,28 @@
+$background-color: #c7caca;
+$text-color: #383535;
+$page-width: 1000px;
+$link-color: #5865A5;
+$link-hover-color: #375ca0;
+$body-font: Georgia, 'Times New Roman', Times, serif;
+
+@mixin box-shadow($shadow:'') {
+	-webkit-box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	box-shadow: $shadow;
+}
+
+@mixin thin-text{
+	text-shadow: 0 0 1px rgba(0, 0, 0, .01);
+}
+
+@mixin transition($transition:''){
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	transition: $transition;
+}
+
+@mixin rounded-corners($radius:2px) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}

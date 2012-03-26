@@ -1,0 +1,29 @@
+<div id="culture_code_banner">
+  <h1>Culture Code</h1>
+  <h2>makes solutions</h2>
+</div>
+<div id="page_nav_container">
+  <ul id="page_nav">
+    <li><%= link_to 'What We Do', root_path(:anchor => 'what_we_do') %></li>
+    <li><%= link_to 'Past Work', root_path(:anchor => 'past_work') %></li>
+    <li><%= link_to 'Contact Us', root_path(:anchor => 'contact_us') %></li>
+  </ul>
+</div>
+<div id="page_copy">
+  <h1><a name="what_we_do"></a>We design software to help you work</h1>
+  <p>Whether you’re one person or an international group of museums,
+     whatever you need, we can build it for you.</p>
+  <p>The team at Culture Code has years of experience designing web
+     applications for the cultural and university sectors. We specialize
+     in building tools for cultural and scientific research.</p>
+
+  <h1><a name="past_work"></a>Our work speaks for itself</h1>
+  <ul class="gallery">
+    <%= gallery_stack 'rrn', 'poster_thumb.png', 'poster.jpg' => "The Reciprocal Research Network - Dispersed First Nations items, together on the web", "poster2.png" => "An intuitive interface takes the guesswork out of searching", "poster3.png" => "Google Maps integration for visualizing results" %>
+    <%= gallery_stack 'loa', 'poster_thumb.png', 'poster.png' => "Ancient Maize Map - A repository for archaeological data", "poster2.png" => "Simple, effective forms for multi-lingual data entry", "poster3.png" => "Interactive Google Earth overlays generated from live data" %>
+    <%= gallery_stack 'resiliency', 'poster_thumb.png', 'poster.jpg' => "Visualizing earthquake resiliency data" %>
+    <%= gallery_stack 'macfarlane', 'poster_thumb.png', 'poster.png' => "Inuvialuit Living History - A display of cultural identity" %>
+    <%= gallery_stack 'ishare', 'poster_thumb.png', 'poster.png' => "iShare - Connecting museums and communities east and west", 'poster2.png' => "Multi-lingual interface with user editable translations" %>
+    <%= gallery_stack 'stolo', 'poster_thumb.png', 'poster2.png' => "Social tools for documenting First Nations land use", 'poster3.png' => "Visualize overlap with proposed land development projects" %>
+  </ul>
+</div>
