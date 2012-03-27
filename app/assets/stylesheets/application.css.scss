@@ -49,7 +49,7 @@ a[name]{
     padding: 0 20px;
 }
 
-$culture-code-banner-left-offset: -44px;
+$culture-code-banner-left-offset: -40px;
 #culture_code_banner{
     position: relative;
     padding-top: 55px;
@@ -57,7 +57,7 @@ $culture-code-banner-left-offset: -44px;
 
     h1{
         font-family: "Charcoal CY";
-        font-size: 180pt;
+        font-size: 170pt;
         color: $title-color;
         line-height: 141pt;
         text-transform: uppercase;
@@ -93,8 +93,8 @@ $page-copy-header-size: 27.5pt;
     }
 }
 
-$copy-to-nav-distance: 100px;
-$nav-padding-left: 50px;
+$copy-to-nav-distance: 70px;
+$nav-padding-left: 25px;
 #page_nav_container{
     margin-left: auto;
     margin-right: auto;
@@ -105,7 +105,7 @@ $nav-padding-left: 50px;
     position: relative;
     left: $page-copy-width + $copy-to-nav-distance - $nav-padding-left;
     padding-left: $nav-padding-left;
-    width: 300px;
+    width: 250px;
     font-family: $subheader-font;
     font-size: 25pt;
     text-transform: uppercase;
