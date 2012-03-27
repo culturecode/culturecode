@@ -12,16 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
 
 $(document).ready(function() {
     /* Apply fancybox to multiple items */
     $(".gallery_item a").fancybox({
         helpers : {
-    		title : {
-    			type : 'outside'
-    		}
-    	}
+            title : {
+                type : 'outside'
+            }
+        }
     });
 
 
@@ -32,7 +31,7 @@ $(document).ready(function() {
         event.preventDefault();
         Helpers.scrollToElement(targetSelector);
     });
-    
+
     Helpers.floatInView('#page_nav_container');
 
 });

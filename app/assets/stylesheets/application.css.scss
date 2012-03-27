@@ -119,14 +119,14 @@ $nav-padding-left: 50px;
 }
 /* Firefox overflows box shadow and causes scrollbars, this is to prevent it */
 #footer_shadow_container{
-    overflow: hidden;
-    width: 100%;
+    margin-top: 80px;
+    border-top: 1px solid #888;
 }
 #footer_container{
     background-color: #191716;
     background-image: asset_url('footer_background.png', image);
-    border-top: 1px solid #888;
-    margin-top: 80px;
+    border-top: 1px solid #111;
+    
     @include box-shadow(0 -2px 20px rgba(0, 0, 0, 0.5));
 }
 #footer{
