@@ -17,3 +17,13 @@ $thumbnail-shadow-border-color: $thumbnail-border-color - #363636;
         @include rounded-corners(2px);
         vertical-align: middle;
 }
+#fancybox-content{
+    border-radius: 1px;
+}
+#fancybox-title{
+    text-shadow: none;
+    // font-family: $body-font !important;
+    // font-size: 1em !important;
+    // background: #E5E5E5;
+    // border-top: 10px solid white;
+} 
