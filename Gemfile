@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 group :production do
+	gem 'rails_12factor' # Heroku wants this for some reason
 	gem 'pg' # Heroku supports postgres, not sqlite
 end
 group :development do
