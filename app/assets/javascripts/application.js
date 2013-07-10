@@ -5,13 +5,15 @@
 // or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
 //
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// the compiled file.
+// compiled file.
 //
-// WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
-// GO AFTER THE REQUIRES BELOW.
+// Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
+// about supported directives.
 //
 //= require jquery
 //= require jquery_ujs
+//= require turbolinks
+//= require jquery-migrate-1.0.0
 //= require fancybox
 //= require_tree .
 
@@ -27,7 +29,7 @@ $(document).ready(function() {
 
 
     // Bind the nav links with smooth scrolling action
-    $('#page_nav li a').live('click', function(event){
+    $('#page_nav').on('click', 'li a', function(event){
         var anchor = this.href.replace(/.*#/, '');
         var targetSelector = 'a[name=' + anchor + ']';
         event.preventDefault();

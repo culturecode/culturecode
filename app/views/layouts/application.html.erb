@@ -2,8 +2,8 @@
 <html>
 <head>
   <title>Culture Code</title>
-  <%= stylesheet_link_tag    "http://yui.yahooapis.com/2.8.1/build/reset/reset-min.css", "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag    "http://yui.yahooapis.com/2.8.1/build/reset/reset-min.css", "application", :media => "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
