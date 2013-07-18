@@ -17,13 +17,20 @@ $thumbnail-shadow-border-color: $thumbnail-border-color - #363636;
         @include rounded-corners(2px);
         vertical-align: middle;
 }
-#fancybox-content{
+.fancybox-skin {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
     border-radius: 1px;
 }
-#fancybox-title{
-    text-shadow: none;
-    // font-family: $body-font !important;
-    // font-size: 1em !important;
-    // background: #E5E5E5;
-    // border-top: 10px solid white;
-} 
+.header {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 20px;
+    width: 100%;
+
+    text-align: center;
+    font-family: $body-font;
+    font-size: 24pt;
+    text-shadow: 0 0 5px black;
+}

@@ -12,15 +12,23 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require jquery-migrate-1.0.0
 //= require_tree .
 
 $(document).ready(function() {
     /* Apply fancybox to multiple items */
     $(".gallery_item a").fancybox({
-        overlayColor: '#111',
-        titlePosition: 'outside'
+        beforeLoad: function() {
+            var header = $(this.element).attr('title');
+            var caption = $(this.element).attr('caption');
+
+            this.title = '<span class="header">' + header + '</span><span class="caption">' + caption + '</span>';
+        },
+        padding: 10,
+        helpers : {
+            title: {
+                type: 'outside'
+            }
+        }
     });
 
 
