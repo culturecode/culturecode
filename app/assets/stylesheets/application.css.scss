@@ -23,7 +23,7 @@ $subheader-font: "Hiragino Kaku Gothic ProN", "News Gothic MT", Thonburi, Tahoma
 
 html{
     background-color: $background-color;
-    background-image: asset_url('background.png', image);
+    background-image: asset_url('background.png');
 }
 a, a:visited{
     text-decoration:none;
@@ -69,7 +69,7 @@ $culture-code-banner-left-offset: -40px;
         position: relative;
         left: 0px - $culture-code-banner-left-offset;
         font-size: 45pt;
-        color: $text-color;		
+        color: $text-color;
         width: 500px;
         margin: 0 0 0.5em 0;
     }
@@ -124,9 +124,9 @@ $nav-padding-left: 25px;
 }
 #footer_container{
     background-color: #191716;
-    background-image: asset_url('footer_background.png', image);
+    background-image: asset_url('footer_background.png');
     border-top: 1px solid #111;
-    
+
     @include box-shadow(0 -2px 20px rgba(0, 0, 0, 0.5));
 }
 #footer{
@@ -151,7 +151,7 @@ $nav-padding-left: 25px;
         line-height: 1.5em;
 
         h4 {
-            font-family: "Charcoal CY";			
+            font-family: "Charcoal CY";
         }
     }
 }
